@@ -33,12 +33,12 @@
 # print(count_k)
 
 # 2й вариант
-list_1 = [1,2,3,4,4,5,5,7,2,6]
+list = [1,2,3,4,4,5,5,7,2,6]
 k = 1
 
 count_k = 0
 
-for i in list_1:
+for i in list:
     if i == k:
         count_k +=1
     i +=1
