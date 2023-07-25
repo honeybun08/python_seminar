@@ -6,16 +6,16 @@
 #k = 6
 #5
 
-list_1 = [34, 15, 6, 2, 9 ,8, 6, 7, 5, 2, 3, 1, 2, 0]
+list = [34, 15, 6, 2, 9 ,8, 6, 7, 5, 2, 3, 1, 2, 0]
 k = 36
 
 val = 0
 min_val = 30000
 
 
-for i in range(0, len(list_1)):
-    if abs(k-list_1[i]) < min_val:
-        val = list_1[i]
-        min_val = abs(k-list_1[i])
+for i in range(0, len(list)):
+    if abs(k-list[i]) < min_val:
+        val = list[i]
+        min_val = abs(k-list[i])
 
 print(val)
